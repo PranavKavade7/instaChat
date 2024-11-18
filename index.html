@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Choices</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    
+    <div id="auth-section">
+        <h2>Welcome to instaChat</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+        <p id="authError" style="color: red;"></p>
+    
+            <div class="content-box">
+                <h1>instaChat</h1>
+                <p><strong>instaChat</strong> is the chat application where any random people can register and can chats with there friends.</p>
+                <hr>
+                <p class="footer">A Pranav Kavade Production | &copy; 2024</p>
+            </div>
+        
+        </div>
+
+    <div id="main-section" style="display: none; width: 80%; margin: auto;">
+        <h1 style="font-family: 'Courier New', Courier, monospace; color: #4a2c2a;">Chats</h1>
+        <div class="choices">
+            
+          
+            
+        </div>
+        <div class="comments-section">
+            <h2 style="color: #4a2c2a;">Comments</h2>
+            <input type="text" id="commentInput" placeholder="Leave a comment...">
+            <button onclick="postComment()">Post Comment</button>
+            <div id="comments"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Choices</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+
+</head>
+<body>
+    
+    <div id="auth-section">
+        <h2>Welcome to Game of Choices</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+        <p id="authError" style="color: red;"></p>
+    
+            <div class="content-box">
+                <h1>Game of Choices</h1>
+                <p><strong>Game of Choices</strong> is the ultimate college experience, where you will be presented with various scenarios and choices. Make your selection and see how your peers chose and why. It's a chance to reflect on different perspectives, engage with your community, and gain insights into real-life decision-making.</p>
+                <p>Currently available at MIT University, Game of Choices is a unique space where every student can participate and play. Not only does it make for a fun, interactive game, but it also enhances general knowledge and provides thoughtful exercises in decision-making for challenging situations.</p>
+                <hr>
+                <p class="footer">A Pranav Kavade Production | &copy; 2024</p>
+            </div>
+        
+        </div>
+
+   
+            
+        </div>
+        <div class="comments-section">
+            <h2 style="color: #4a2c2a;">Chats</h2>
+             <input type="text" id="commentInput" placeholder="Leave a comment...">
+            <button onclick="postComment()">Post Comment</button>
+            <div id="comments"></div>
+        </div>
+    </div>
+</body>
+</html> -->
